@@ -5,4 +5,4 @@ Icons for experience-modifying effects are displayed in single column that can b
 
 Killstreak, map-swap, seasonal, and zone-specific buffs are not included. See the wiki for a [comlete list of experience modifiers](https://wiki.guildwars2.com/wiki/Experience#Experience_modifiers). 
 
-Some buffs' different variations or strengths are currently missing from this alpha release; for instance, only the full 25% Rested buff and 10% Guild XP Gain are shown. Users will need to manually adjust the *effect id* for the Food and Utility buffs to whichever ones they're using ([see this wiki page](https://wiki.guildwars2.com/wiki/Guild_Wars_2_Wiki:Projects/Nourishment_effect_ids) for those nourishment effect IDs).
+Some buffs' different variations or strengths are currently missing from this alpha release; for instance, only the full 25% Rested buff and 10% Guild XP Gain are shown. Users will need to manually adjust the *effect ID* for the Food and Utility buffs to whichever ones they're using ([see this wiki page](https://wiki.guildwars2.com/wiki/Guild_Wars_2_Wiki:Projects/Nourishment_effect_ids) for those nourishment effect IDs).
