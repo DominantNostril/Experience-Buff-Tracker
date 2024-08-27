@@ -1,0 +1,1245 @@
+{
+  "schema": "v1",
+  "enabled": true,
+  "name": "Experience Boost Tracker by Dominant Nostril",
+  "pos": [
+    -132.0,
+    134.0
+  ],
+  "opacity": 1.0,
+  "trigger": {
+    "source": "Inherit",
+    "threshold": {
+      "threshold_type": "Always",
+      "amount_type": "Intensity"
+    }
+  },
+  "anchor": "Center",
+  "layer": 0,
+  "elements": [
+    {
+      "enabled": true,
+      "name": "When Available",
+      "pos": [
+        -1209.0,
+        -393.0
+      ],
+      "opacity": 1.0,
+      "trigger": {
+        "source": "Inherit",
+        "threshold": {
+          "threshold_type": "Always",
+          "amount_type": "Intensity"
+        }
+      },
+      "filter": {
+        "player": {
+          "combat": null,
+          "specs": [],
+          "traits": [],
+          "mounts": []
+        },
+        "map": {
+          "category": [],
+          "whitelist": true,
+          "ids": []
+        }
+      },
+      "animation": null,
+      "type": "IconList",
+      "layout": "Static",
+      "direction": "Up",
+      "size": [
+        32.0,
+        32.0
+      ],
+      "pad": 2.0,
+      "icons": [
+        {
+          "enabled": true,
+          "name": "50% Experience Bonus",
+          "trigger": {
+            "source": {
+              "Buff": 929
+            },
+            "threshold": {
+              "threshold_type": "Present",
+              "amount_type": "Intensity"
+            }
+          },
+          "icon": {
+            "Url": "https://wiki.guildwars2.com/images/6/6a/Experience_Bonus_%28fifty_percent%29.png"
+          },
+          "tint": [
+            1.0,
+            1.0,
+            1.0,
+            1.0
+          ],
+          "zoom": 1.0,
+          "round": 0.0,
+          "conditions": [],
+          "duration_bar": true,
+          "duration_text": false,
+          "stacks_text": false
+        },
+        {
+          "enabled": true,
+          "name": "Guild Experience Bonus - Kill 5%",
+          "trigger": {
+            "source": {
+              "Buff": 927
+            },
+            "threshold": {
+              "threshold_type": "Present",
+              "amount_type": "Intensity"
+            }
+          },
+          "icon": {
+            "Url": "https://wiki.guildwars2.com/images/thumb/f/f4/5_Exp_Public_Banner.png/80px-5_Exp_Public_Banner.png"
+          },
+          "tint": [
+            1.0,
+            1.0,
+            1.0,
+            1.0
+          ],
+          "zoom": 1.0,
+          "round": 0.0,
+          "conditions": [],
+          "duration_bar": true,
+          "duration_text": false,
+          "stacks_text": false
+        },
+        {
+          "enabled": true,
+          "name": "Guild Experience Banner Bonus - Kill 15%",
+          "trigger": {
+            "source": {
+              "Buff": 17685
+            },
+            "threshold": {
+              "threshold_type": "Present",
+              "amount_type": "Intensity"
+            }
+          },
+          "icon": {
+            "Url": "https://wiki.guildwars2.com/images/thumb/f/f4/5_Exp_Public_Banner.png/80px-5_Exp_Public_Banner.png"
+          },
+          "tint": [
+            1.0,
+            1.0,
+            1.0,
+            1.0
+          ],
+          "zoom": 1.0,
+          "round": 0.0,
+          "conditions": [],
+          "duration_bar": false,
+          "duration_text": false,
+          "stacks_text": false
+        }
+      ]
+    },
+    {
+      "enabled": true,
+      "name": "SHADOW When Available",
+      "pos": [
+        -1209.0,
+        -394.0
+      ],
+      "opacity": 0.3547,
+      "trigger": {
+        "source": "Always",
+        "threshold": {
+          "threshold_type": "Always",
+          "amount_type": "Intensity"
+        }
+      },
+      "filter": {
+        "player": {
+          "combat": null,
+          "specs": [],
+          "traits": [],
+          "mounts": []
+        },
+        "map": {
+          "category": [],
+          "whitelist": true,
+          "ids": []
+        }
+      },
+      "animation": null,
+      "type": "IconList",
+      "layout": "Static",
+      "direction": "Up",
+      "size": [
+        32.0,
+        32.0
+      ],
+      "pad": 2.0,
+      "icons": [
+        {
+          "enabled": true,
+          "name": "50% Experience Bonus",
+          "trigger": {
+            "source": {
+              "Buff": 929
+            },
+            "threshold": {
+              "threshold_type": "Always",
+              "amount_type": "Intensity"
+            }
+          },
+          "icon": {
+            "Url": "https://wiki.guildwars2.com/images/6/6a/Experience_Bonus_%28fifty_percent%29.png"
+          },
+          "tint": [
+            1.0,
+            1.0,
+            1.0,
+            1.0
+          ],
+          "zoom": 1.0,
+          "round": 0.0,
+          "conditions": [],
+          "duration_bar": true,
+          "duration_text": false,
+          "stacks_text": false
+        },
+        {
+          "enabled": true,
+          "name": "Guild Experience Bonus - Kill 5%",
+          "trigger": {
+            "source": {
+              "Buff": 927
+            },
+            "threshold": {
+              "threshold_type": "Always",
+              "amount_type": "Intensity"
+            }
+          },
+          "icon": {
+            "Url": "https://wiki.guildwars2.com/images/thumb/f/f4/5_Exp_Public_Banner.png/80px-5_Exp_Public_Banner.png"
+          },
+          "tint": [
+            1.0,
+            1.0,
+            1.0,
+            1.0
+          ],
+          "zoom": 1.0,
+          "round": 0.0,
+          "conditions": [],
+          "duration_bar": true,
+          "duration_text": false,
+          "stacks_text": false
+        },
+        {
+          "enabled": true,
+          "name": "Guild Experience Banner Bonus - Kill 15%",
+          "trigger": {
+            "source": {
+              "Buff": 17685
+            },
+            "threshold": {
+              "threshold_type": "Always",
+              "amount_type": "Intensity"
+            }
+          },
+          "icon": {
+            "Url": "https://wiki.guildwars2.com/images/thumb/f/f4/5_Exp_Public_Banner.png/80px-5_Exp_Public_Banner.png"
+          },
+          "tint": [
+            1.0,
+            1.0,
+            1.0,
+            1.0
+          ],
+          "zoom": 1.0,
+          "round": 0.0,
+          "conditions": [],
+          "duration_bar": false,
+          "duration_text": false,
+          "stacks_text": false
+        }
+      ]
+    },
+    {
+      "enabled": true,
+      "name": "Quick Check",
+      "pos": [
+        -1209.0,
+        -347.0
+      ],
+      "opacity": 1.0,
+      "trigger": {
+        "source": "Inherit",
+        "threshold": {
+          "threshold_type": "Always",
+          "amount_type": "Intensity"
+        }
+      },
+      "filter": {
+        "player": {
+          "combat": null,
+          "specs": [],
+          "traits": [],
+          "mounts": []
+        },
+        "map": {
+          "category": [],
+          "whitelist": true,
+          "ids": []
+        }
+      },
+      "animation": null,
+      "type": "IconList",
+      "layout": "Static",
+      "direction": "Down",
+      "size": [
+        32.0,
+        32.0
+      ],
+      "pad": 2.0,
+      "icons": [
+        {
+          "enabled": true,
+          "name": "Experience Booster (effect)",
+          "trigger": {
+            "source": {
+              "Buff": 31078
+            },
+            "threshold": {
+              "threshold_type": "Present",
+              "amount_type": "Intensity"
+            }
+          },
+          "icon": {
+            "Url": "https://wiki.guildwars2.com/images/6/6a/Experience_Bonus_%28fifty_percent%29.png"
+          },
+          "tint": [
+            0.99999267,
+            1.0,
+            0.99999,
+            1.0
+          ],
+          "zoom": 1.0,
+          "round": 0.0,
+          "conditions": [],
+          "duration_bar": true,
+          "duration_text": false,
+          "stacks_text": false
+        },
+        {
+          "enabled": true,
+          "name": "Nourishment (Food)",
+          "trigger": {
+            "source": {
+              "AnyBuff": [
+                53222,
+                25318
+              ]
+            },
+            "threshold": {
+              "threshold_type": "Present",
+              "amount_type": "Intensity"
+            }
+          },
+          "icon": {
+            "Url": "https://wiki.guildwars2.com/images/c/ca/Nourishment_food.png"
+          },
+          "tint": [
+            1.0,
+            1.0,
+            1.0,
+            1.0
+          ],
+          "zoom": 1.0,
+          "round": 0.0,
+          "conditions": [],
+          "duration_bar": true,
+          "duration_text": false,
+          "stacks_text": false
+        },
+        {
+          "enabled": true,
+          "name": "Enhancement (Utility)",
+          "trigger": {
+            "source": {
+              "AnyBuff": [
+                23228,
+                68235
+              ]
+            },
+            "threshold": {
+              "threshold_type": "Present",
+              "amount_type": "Intensity"
+            }
+          },
+          "icon": {
+            "Url": "https://wiki.guildwars2.com/images/2/23/Nourishment_utility.png"
+          },
+          "tint": [
+            1.0,
+            1.0,
+            1.0,
+            1.0
+          ],
+          "zoom": 1.0,
+          "round": 0.0,
+          "conditions": [],
+          "duration_bar": false,
+          "duration_text": false,
+          "stacks_text": false
+        },
+        {
+          "enabled": true,
+          "name": "New Year's Gift - 5% XP",
+          "trigger": {
+            "source": {
+              "Buff": 34227
+            },
+            "threshold": {
+              "threshold_type": "Present",
+              "amount_type": "Intensity"
+            }
+          },
+          "icon": {
+            "Url": "https://wiki.guildwars2.com/images/c/c6/Experience_%28thirty_percent%29.png"
+          },
+          "tint": [
+            1.0,
+            1.0,
+            1.0,
+            1.0
+          ],
+          "zoom": 1.0,
+          "round": 0.0,
+          "conditions": [],
+          "duration_bar": false,
+          "duration_text": false,
+          "stacks_text": false
+        },
+        {
+          "enabled": true,
+          "name": "Festival Gobbler Boost - Zhaitaffy",
+          "trigger": {
+            "source": {
+              "Buff": 60607
+            },
+            "threshold": {
+              "threshold_type": "Present",
+              "amount_type": "Intensity"
+            }
+          },
+          "icon": {
+            "Url": "https://wiki.guildwars2.com/images/a/aa/Dragon%27s_Rage.png"
+          },
+          "tint": [
+            1.0,
+            1.0,
+            1.0,
+            1.0
+          ],
+          "zoom": 1.0,
+          "round": 0.0,
+          "conditions": [],
+          "duration_bar": true,
+          "duration_text": false,
+          "stacks_text": false
+        }
+      ]
+    },
+    {
+      "enabled": true,
+      "name": "SHADOW Quick Check",
+      "pos": [
+        -1209.0,
+        -347.0
+      ],
+      "opacity": 0.3547,
+      "trigger": {
+        "source": "Always",
+        "threshold": {
+          "threshold_type": "Always",
+          "amount_type": "Intensity"
+        }
+      },
+      "filter": {
+        "player": {
+          "combat": null,
+          "specs": [],
+          "traits": [],
+          "mounts": []
+        },
+        "map": {
+          "category": [],
+          "whitelist": true,
+          "ids": []
+        }
+      },
+      "animation": null,
+      "type": "IconList",
+      "layout": "Static",
+      "direction": "Down",
+      "size": [
+        32.0,
+        32.0
+      ],
+      "pad": 2.0,
+      "icons": [
+        {
+          "enabled": true,
+          "name": "Experience Booster (effect)",
+          "trigger": {
+            "source": {
+              "Buff": 31078
+            },
+            "threshold": {
+              "threshold_type": "Always",
+              "amount_type": "Intensity"
+            }
+          },
+          "icon": {
+            "Url": "https://wiki.guildwars2.com/images/6/6a/Experience_Bonus_%28fifty_percent%29.png"
+          },
+          "tint": [
+            1.0,
+            1.0,
+            1.0,
+            1.0
+          ],
+          "zoom": 1.0,
+          "round": 0.0,
+          "conditions": [],
+          "duration_bar": true,
+          "duration_text": false,
+          "stacks_text": false
+        },
+        {
+          "enabled": true,
+          "name": "Nourishment (Food)",
+          "trigger": {
+            "source": {
+              "AnyBuff": [
+                53222
+              ]
+            },
+            "threshold": {
+              "threshold_type": "Always",
+              "amount_type": "Intensity"
+            }
+          },
+          "icon": {
+            "Url": "https://wiki.guildwars2.com/images/c/ca/Nourishment_food.png"
+          },
+          "tint": [
+            1.0,
+            1.0,
+            1.0,
+            1.0
+          ],
+          "zoom": 1.0,
+          "round": 0.0,
+          "conditions": [],
+          "duration_bar": true,
+          "duration_text": false,
+          "stacks_text": false
+        },
+        {
+          "enabled": true,
+          "name": "Enhancement (Utility)",
+          "trigger": {
+            "source": {
+              "AnyBuff": [
+                23228
+              ]
+            },
+            "threshold": {
+              "threshold_type": "Always",
+              "amount_type": "Intensity"
+            }
+          },
+          "icon": {
+            "Url": "https://wiki.guildwars2.com/images/2/23/Nourishment_utility.png"
+          },
+          "tint": [
+            1.0,
+            1.0,
+            1.0,
+            1.0
+          ],
+          "zoom": 1.0,
+          "round": 0.0,
+          "conditions": [],
+          "duration_bar": false,
+          "duration_text": false,
+          "stacks_text": false
+        },
+        {
+          "enabled": true,
+          "name": "New Year's Gift - 5% XP",
+          "trigger": {
+            "source": {
+              "Buff": 34227
+            },
+            "threshold": {
+              "threshold_type": "Always",
+              "amount_type": "Intensity"
+            }
+          },
+          "icon": {
+            "Url": "https://wiki.guildwars2.com/images/c/c6/Experience_%28thirty_percent%29.png"
+          },
+          "tint": [
+            1.0,
+            1.0,
+            1.0,
+            1.0
+          ],
+          "zoom": 1.0,
+          "round": 0.0,
+          "conditions": [],
+          "duration_bar": false,
+          "duration_text": false,
+          "stacks_text": false
+        },
+        {
+          "enabled": true,
+          "name": "Festival Gobbler Boost - Zhaitaffy",
+          "trigger": {
+            "source": "Always",
+            "threshold": {
+              "threshold_type": "Present",
+              "amount_type": "Intensity"
+            }
+          },
+          "icon": {
+            "Url": "https://wiki.guildwars2.com/images/a/aa/Dragon%27s_Rage.png"
+          },
+          "tint": [
+            1.0,
+            1.0,
+            1.0,
+            1.0
+          ],
+          "zoom": 1.0,
+          "round": 0.0,
+          "conditions": [],
+          "duration_bar": true,
+          "duration_text": false,
+          "stacks_text": false
+        }
+      ]
+    },
+    {
+      "enabled": true,
+      "name": "Update Daily",
+      "pos": [
+        -1209.0,
+        -165.0
+      ],
+      "opacity": 1.0,
+      "trigger": {
+        "source": "Inherit",
+        "threshold": {
+          "threshold_type": "Always",
+          "amount_type": "Intensity"
+        }
+      },
+      "filter": {
+        "player": {
+          "combat": null,
+          "specs": [],
+          "traits": [],
+          "mounts": []
+        },
+        "map": {
+          "category": [],
+          "whitelist": true,
+          "ids": []
+        }
+      },
+      "animation": null,
+      "type": "IconList",
+      "layout": "Static",
+      "direction": "Down",
+      "size": [
+        32.0,
+        32.0
+      ],
+      "pad": 2.0,
+      "icons": [
+        {
+          "enabled": true,
+          "name": "Enlightenment - Training Ground",
+          "trigger": {
+            "source": {
+              "Buff": 63638
+            },
+            "threshold": {
+              "threshold_type": "Present",
+              "amount_type": "Intensity"
+            }
+          },
+          "icon": {
+            "Url": "https://wiki.guildwars2.com/images/f/fa/Enlightenment.png"
+          },
+          "tint": [
+            1.0,
+            1.0,
+            1.0,
+            1.0
+          ],
+          "zoom": 1.0,
+          "round": 0.0,
+          "conditions": [],
+          "duration_bar": true,
+          "duration_text": false,
+          "stacks_text": false
+        },
+        {
+          "enabled": true,
+          "name": "Ancient Canthan Secret - Vendor",
+          "trigger": {
+            "source": {
+              "Buff": 66005
+            },
+            "threshold": {
+              "threshold_type": "Present",
+              "amount_type": "Intensity"
+            }
+          },
+          "icon": {
+            "Url": "https://wiki.guildwars2.com/images/f/fa/Enlightenment.png"
+          },
+          "tint": [
+            1.0,
+            1.0,
+            1.0,
+            1.0
+          ],
+          "zoom": 1.0,
+          "round": 0.0,
+          "conditions": [],
+          "duration_bar": true,
+          "duration_text": false,
+          "stacks_text": false
+        },
+        {
+          "enabled": true,
+          "name": "Lowland Expertise - Janthir Heart Buff",
+          "trigger": {
+            "source": {
+              "Buff": 73677
+            },
+            "threshold": {
+              "threshold_type": "Present",
+              "amount_type": "Intensity"
+            }
+          },
+          "icon": {
+            "Url": "https://wiki.guildwars2.com/images/f/fa/Enlightenment.png"
+          },
+          "tint": [
+            1.0,
+            1.0,
+            1.0,
+            1.0
+          ],
+          "zoom": 1.0,
+          "round": 0.0,
+          "conditions": [],
+          "duration_bar": true,
+          "duration_text": false,
+          "stacks_text": true
+        },
+        {
+          "enabled": true,
+          "name": "Incredibly Well Rested (Arborstone/Wizards Tower)",
+          "trigger": {
+            "source": {
+              "Buff": 64246
+            },
+            "threshold": {
+              "threshold_type": "Present",
+              "amount_type": "Intensity"
+            }
+          },
+          "icon": {
+            "Url": "https://wiki.guildwars2.com/images/3/32/Well_Rested.png"
+          },
+          "tint": [
+            1.0,
+            1.0,
+            1.0,
+            1.0
+          ],
+          "zoom": 1.0,
+          "round": 0.0,
+          "conditions": [],
+          "duration_bar": true,
+          "duration_text": false,
+          "stacks_text": false
+        }
+      ]
+    },
+    {
+      "enabled": true,
+      "name": "SHADOW Update Daily",
+      "pos": [
+        -1209.0,
+        -165.0
+      ],
+      "opacity": 0.3547,
+      "trigger": {
+        "source": "Inherit",
+        "threshold": {
+          "threshold_type": "Always",
+          "amount_type": "Intensity"
+        }
+      },
+      "filter": {
+        "player": {
+          "combat": null,
+          "specs": [],
+          "traits": [],
+          "mounts": []
+        },
+        "map": {
+          "category": [],
+          "whitelist": true,
+          "ids": []
+        }
+      },
+      "animation": null,
+      "type": "IconList",
+      "layout": "Static",
+      "direction": "Down",
+      "size": [
+        32.0,
+        32.0
+      ],
+      "pad": 2.0,
+      "icons": [
+        {
+          "enabled": true,
+          "name": "Enlightenment - Training Ground",
+          "trigger": {
+            "source": {
+              "Buff": 63638
+            },
+            "threshold": {
+              "threshold_type": "Always",
+              "amount_type": "Intensity"
+            }
+          },
+          "icon": {
+            "Url": "https://wiki.guildwars2.com/images/f/fa/Enlightenment.png"
+          },
+          "tint": [
+            1.0,
+            1.0,
+            1.0,
+            1.0
+          ],
+          "zoom": 1.0,
+          "round": 0.0,
+          "conditions": [],
+          "duration_bar": true,
+          "duration_text": false,
+          "stacks_text": false
+        },
+        {
+          "enabled": true,
+          "name": "Ancient Canthan Secret - Vendor",
+          "trigger": {
+            "source": {
+              "Buff": 66005
+            },
+            "threshold": {
+              "threshold_type": "Always",
+              "amount_type": "Intensity"
+            }
+          },
+          "icon": {
+            "Url": "https://wiki.guildwars2.com/images/f/fa/Enlightenment.png"
+          },
+          "tint": [
+            1.0,
+            1.0,
+            1.0,
+            1.0
+          ],
+          "zoom": 1.0,
+          "round": 0.0,
+          "conditions": [],
+          "duration_bar": true,
+          "duration_text": false,
+          "stacks_text": false
+        },
+        {
+          "enabled": true,
+          "name": "Lowland Expertise - Janthir Heart Buff",
+          "trigger": {
+            "source": "Always",
+            "threshold": {
+              "threshold_type": "Present",
+              "amount_type": "Intensity"
+            }
+          },
+          "icon": {
+            "Url": "https://wiki.guildwars2.com/images/f/fa/Enlightenment.png"
+          },
+          "tint": [
+            1.0,
+            1.0,
+            1.0,
+            1.0
+          ],
+          "zoom": 1.0,
+          "round": 0.0,
+          "conditions": [],
+          "duration_bar": true,
+          "duration_text": false,
+          "stacks_text": true
+        },
+        {
+          "enabled": true,
+          "name": "Incredibly Well Rested",
+          "trigger": {
+            "source": {
+              "Buff": 64246
+            },
+            "threshold": {
+              "threshold_type": "Always",
+              "amount_type": "Intensity"
+            }
+          },
+          "icon": {
+            "Url": "https://wiki.guildwars2.com/images/3/32/Well_Rested.png"
+          },
+          "tint": [
+            1.0,
+            1.0,
+            1.0,
+            1.0
+          ],
+          "zoom": 1.0,
+          "round": 0.0,
+          "conditions": [],
+          "duration_bar": true,
+          "duration_text": false,
+          "stacks_text": false
+        }
+      ]
+    },
+    {
+      "enabled": true,
+      "name": "Long Duration & Rare",
+      "pos": [
+        -1209.0,
+        -16.0
+      ],
+      "opacity": 1.0,
+      "trigger": {
+        "source": "Inherit",
+        "threshold": {
+          "threshold_type": "Always",
+          "amount_type": "Intensity"
+        }
+      },
+      "filter": {
+        "player": {
+          "combat": null,
+          "specs": [],
+          "traits": [],
+          "mounts": []
+        },
+        "map": {
+          "category": [],
+          "whitelist": true,
+          "ids": []
+        }
+      },
+      "animation": null,
+      "type": "IconList",
+      "layout": "Static",
+      "direction": "Down",
+      "size": [
+        32.0,
+        32.0
+      ],
+      "pad": 2.0,
+      "icons": [
+        {
+          "enabled": true,
+          "name": "Celebration Bonus",
+          "trigger": {
+            "source": {
+              "Buff": 20898
+            },
+            "threshold": {
+              "threshold_type": "Present",
+              "amount_type": "Intensity"
+            }
+          },
+          "icon": {
+            "Url": "https://wiki.guildwars2.com/images/d/da/Celebration_Bonus.png"
+          },
+          "tint": [
+            1.0,
+            1.0,
+            1.0,
+            1.0
+          ],
+          "zoom": 0.9999999,
+          "round": 0.0,
+          "conditions": [],
+          "duration_bar": true,
+          "duration_text": false,
+          "stacks_text": false
+        },
+        {
+          "enabled": true,
+          "name": "Guild Experience Boost",
+          "trigger": {
+            "source": {
+              "AnyBuff": [
+                33106
+              ]
+            },
+            "threshold": {
+              "threshold_type": "Present",
+              "amount_type": "Intensity"
+            }
+          },
+          "icon": {
+            "Url": "https://wiki.guildwars2.com/images/f/fe/Endless_Gift_Dolyak_Tonic.png"
+          },
+          "tint": [
+            1.0,
+            1.0,
+            1.0,
+            1.0
+          ],
+          "zoom": 1.1494249,
+          "round": 0.0,
+          "conditions": [],
+          "duration_bar": false,
+          "duration_text": false,
+          "stacks_text": false
+        },
+        {
+          "enabled": true,
+          "name": "Blessings of the New Year",
+          "trigger": {
+            "source": {
+              "Buff": 34257
+            },
+            "threshold": {
+              "threshold_type": "Present",
+              "amount_type": "Intensity"
+            }
+          },
+          "icon": {
+            "Url": "https://wiki.guildwars2.com/images/c/c6/Experience_%28thirty_percent%29.png"
+          },
+          "tint": [
+            1.0,
+            1.0,
+            1.0,
+            1.0
+          ],
+          "zoom": 1.0,
+          "round": 0.0,
+          "conditions": [],
+          "duration_bar": false,
+          "duration_text": false,
+          "stacks_text": false
+        },
+        {
+          "enabled": true,
+          "name": "Black Lion Boost",
+          "trigger": {
+            "source": {
+              "Buff": 39282
+            },
+            "threshold": {
+              "threshold_type": "Present",
+              "amount_type": "Intensity"
+            }
+          },
+          "icon": {
+            "Url": "https://wiki.guildwars2.com/images/a/a4/Black_Lion_Booster.png"
+          },
+          "tint": [
+            1.0,
+            1.0,
+            1.0,
+            1.0
+          ],
+          "zoom": 1.0,
+          "round": 0.0,
+          "conditions": [],
+          "duration_bar": false,
+          "duration_text": false,
+          "stacks_text": false
+        }
+      ]
+    },
+    {
+      "enabled": true,
+      "name": "SHADOW Long Duration & Rare",
+      "pos": [
+        -1209.0,
+        -16.0
+      ],
+      "opacity": 0.3547,
+      "trigger": {
+        "source": "Always",
+        "threshold": {
+          "threshold_type": "Always",
+          "amount_type": "Intensity"
+        }
+      },
+      "filter": {
+        "player": {
+          "combat": null,
+          "specs": [],
+          "traits": [],
+          "mounts": []
+        },
+        "map": {
+          "category": [],
+          "whitelist": true,
+          "ids": []
+        }
+      },
+      "animation": null,
+      "type": "IconList",
+      "layout": "Static",
+      "direction": "Down",
+      "size": [
+        32.0,
+        32.0
+      ],
+      "pad": 2.0,
+      "icons": [
+        {
+          "enabled": true,
+          "name": "Celebration Bonus",
+          "trigger": {
+            "source": {
+              "Buff": 20898
+            },
+            "threshold": {
+              "threshold_type": "Always",
+              "amount_type": "Intensity"
+            }
+          },
+          "icon": {
+            "Url": "https://wiki.guildwars2.com/images/d/da/Celebration_Bonus.png"
+          },
+          "tint": [
+            1.0,
+            1.0,
+            1.0,
+            1.0
+          ],
+          "zoom": 1.0,
+          "round": 0.0,
+          "conditions": [],
+          "duration_bar": true,
+          "duration_text": false,
+          "stacks_text": false
+        },
+        {
+          "enabled": true,
+          "name": "Guild Experience Boost",
+          "trigger": {
+            "source": {
+              "Buff": 0
+            },
+            "threshold": {
+              "threshold_type": "Always",
+              "amount_type": "Intensity"
+            }
+          },
+          "icon": {
+            "Url": "https://wiki.guildwars2.com/images/f/fe/Endless_Gift_Dolyak_Tonic.png"
+          },
+          "tint": [
+            1.0,
+            1.0,
+            1.0,
+            1.0
+          ],
+          "zoom": 1.1494249,
+          "round": 0.0,
+          "conditions": [],
+          "duration_bar": false,
+          "duration_text": false,
+          "stacks_text": false
+        },
+        {
+          "enabled": true,
+          "name": "Blessings of the New Year",
+          "trigger": {
+            "source": {
+              "Buff": 34257
+            },
+            "threshold": {
+              "threshold_type": "Always",
+              "amount_type": "Intensity"
+            }
+          },
+          "icon": {
+            "Url": "https://wiki.guildwars2.com/images/c/c6/Experience_%28thirty_percent%29.png"
+          },
+          "tint": [
+            1.0,
+            1.0,
+            1.0,
+            1.0
+          ],
+          "zoom": 1.0,
+          "round": 0.0,
+          "conditions": [],
+          "duration_bar": false,
+          "duration_text": false,
+          "stacks_text": false
+        },
+        {
+          "enabled": true,
+          "name": "Black Lion Boost",
+          "trigger": {
+            "source": {
+              "Buff": 39282
+            },
+            "threshold": {
+              "threshold_type": "Present",
+              "amount_type": "Intensity"
+            }
+          },
+          "icon": {
+            "Url": "https://wiki.guildwars2.com/images/a/a4/Black_Lion_Booster.png"
+          },
+          "tint": [
+            1.0,
+            1.0,
+            1.0,
+            1.0
+          ],
+          "zoom": 1.0,
+          "round": 0.0,
+          "conditions": [],
+          "duration_bar": false,
+          "duration_text": false,
+          "stacks_text": false
+        }
+      ]
+    }
+  ]
+}
