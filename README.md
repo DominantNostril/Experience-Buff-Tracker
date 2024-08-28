@@ -9,6 +9,6 @@ Icons for common experience-modifying effects are displayed in single column tha
 
 Killstreak, seasonal, and zone-specific buffs are not included. See the wiki for a [complete list of experience modifiers](https://wiki.guildwars2.com/wiki/Experience#Experience_modifiers).
 
-Some less common buffs are hidden when inactive to reduce visual clutter, including Volunteer's Blessing (map swap) and the Black Lion Boost. Their greyed-out inactive-state icons may be enabled in the Reffect pack settings by changing their individual Thresholds to "Missing."
+Uncommon buffs are hidden when inactive to reduce visual clutter, including Volunteer's Blessing (map swap) and Black Lion Boost. Their greyed-out inactive-state icons may be enabled in the Reffect pack settings by changing their individual Thresholds to "Missing."
 
 Some buffs' variants and different strengths are not included in this alpha release; for instance, only the full 25% Rested buff and 10% Guild XP Gain are shown. Most users will need to manually add the two *effect ID*s for whichever food and utility buffs they're using ([see this wiki page](https://wiki.guildwars2.com/wiki/Guild_Wars_2_Wiki:Projects/Nourishment_effect_ids) for those nourishment effect IDs).
