@@ -4,7 +4,7 @@ Experience Buff Tracker is a custom pack for the [Guild Wars 2](https://guildwar
 Icons for common experience-modifying effects are displayed in single column that can be dragged anywhere on the screen. Buffs currently active on the character are displayed at full opacity, while missing and expired buffs are greyed-out to aid the player in determing what to apply.
 
 
-![active 8-30-24](https://github.com/user-attachments/assets/42e0a68b-d0cb-4405-aadb-6d085e7c3fc0)          ![full 8-30-24](https://github.com/user-attachments/assets/c9443644-26a2-4daa-a3aa-d4204b028926)
+<img src="https://github.com/user-attachments/assets/42e0a68b-d0cb-4405-aadb-6d085e7c3fc0" height="400">          <img src="https://github.com/user-attachments/assets/c9443644-26a2-4daa-a3aa-d4204b028926" height="400">
 
 
 #
