@@ -138,6 +138,34 @@
           "duration_bar": false,
           "duration_text": false,
           "stacks_text": false
+        },
+        {
+          "enabled": true,
+          "name": "Volunteer's Blessing",
+          "trigger": {
+            "source": {
+              "Buff": 25538
+            },
+            "threshold": {
+              "threshold_type": "Present",
+              "amount_type": "Intensity"
+            }
+          },
+          "icon": {
+            "Url": "https://wiki.guildwars2.com/images/d/d3/Volunteer%27s_Blessing.png"
+          },
+          "tint": [
+            1.0,
+            1.0,
+            1.0,
+            1.0
+          ],
+          "zoom": 1.0,
+          "round": 0.0,
+          "conditions": [],
+          "duration_bar": false,
+          "duration_text": false,
+          "stacks_text": false
         }
       ]
     },
@@ -243,12 +271,40 @@
               "Buff": 17685
             },
             "threshold": {
-              "threshold_type": "Always",
+              "threshold_type": "Missing",
               "amount_type": "Intensity"
             }
           },
           "icon": {
             "Url": "https://wiki.guildwars2.com/images/thumb/f/f4/5_Exp_Public_Banner.png/80px-5_Exp_Public_Banner.png"
+          },
+          "tint": [
+            1.0,
+            1.0,
+            1.0,
+            1.0
+          ],
+          "zoom": 1.0,
+          "round": 0.0,
+          "conditions": [],
+          "duration_bar": false,
+          "duration_text": false,
+          "stacks_text": false
+        },
+        {
+          "enabled": true,
+          "name": "Volunteer's Blessing",
+          "trigger": {
+            "source": {
+              "Buff": 25538
+            },
+            "threshold": {
+              "threshold_type": "Present",
+              "amount_type": "Intensity"
+            }
+          },
+          "icon": {
+            "Url": "https://wiki.guildwars2.com/images/d/d3/Volunteer%27s_Blessing.png"
           },
           "tint": [
             1.0,
