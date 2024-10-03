@@ -13,6 +13,6 @@ Buffs are loosely grouped according to expiration and availability. Some use alt
 
 Certain uncommon buffs are completely hidden when inactive to reduce clutter, but will show if active. This includes Volunteer's Blessing (map swap) and Black Lion Boost. Their inactive-state icons may be enabled in the Reffect pack settings by changing their individual Thresholds to "Missing."
 
-Killstreak, seasonal, and zone-specific buffs are not included. See the wiki for a [complete list of experience modifiers](https://wiki.guildwars2.com/wiki/Experience#Experience_modifiers).
+Killstreak, seasonal, and zone-specific buffs are not included (except for Lowland Expertise, the cumulative buff from heart vendors). See the wiki for a [complete list of experience modifiers](https://wiki.guildwars2.com/wiki/Experience#Experience_modifiers).
 
 Most food and utility effects are currently missing, so users may need to manually add the two *effect ID*s for whichever nourishment they're using ([see this wiki page](https://wiki.guildwars2.com/wiki/Guild_Wars_2_Wiki:Projects/Nourishment_effect_ids) for nourishment effect IDs). Some other buffs' variants and lower strengths are not included in this release; for instance, only the maximum 10% Guild XP Gain is shown, while two of the lesser Homstead Rested buffs are missing. 
