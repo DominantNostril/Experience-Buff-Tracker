@@ -1,3 +1,5 @@
+Disregard the files above and use the latest download link on the right.
+
 # Experience Buff Tracker
 Experience Buff Tracker is a custom pack for the [Guild Wars 2](https://guildwars2.com) addon [GW2 Reffect](https://github.com/Zerthox/gw2-reffect/) that makes it easy to keep track of the game's PvE experience buffs.
 
